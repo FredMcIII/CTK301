@@ -1,0 +1,64 @@
+/* style sheet for assignment 3 */
+
+
+
+
+
+h1 {
+    color:blueviolet;
+    background-color: aqua;
+}
+h2{
+    color:blanchedalmond;
+    background-color: orange;
+}
+h3{
+color:aqua;
+background-color: burlywood;
+}
+
+a:link {
+    color:red;
+}
+a:visited {
+    color:green;
+}
+a:hover{
+    color:yellow;
+}
+
+#maincontent {
+    color:blue;
+    background-color: honeydew;
+}
+
+.video{
+color:green;
+background-color: wheat;
+}
+.game{
+color:red;
+background-color: darkkhaki;
+}
+.programming{
+color:yellow;
+background-color: firebrick;
+}
+.audio{
+color:brown;
+background-color:beige;
+}
+#lvl{ 
+    color:bisque;
+    background-color: black;
+}
+
+#level{
+    color: aquamarine;
+    background-color: blueviolet;
+}
+
+.content{
+    color: antiquewhite;
+    background-color: black;
+}
