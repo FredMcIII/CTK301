@@ -1,0 +1,102 @@
+body {
+    background-image: url(a62.png);
+    background-repeat: repeat;
+}
+
+#wrapper {
+    margin: 1em auto;
+    padding: 1em;
+    width: 960px;
+    border: 3px solid black;
+    background-color: #ffffff; 
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); 
+  }
+h1{ grid-column: span 6;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 100;
+background-color: black;
+color: #ffffff;
+padding: 20px;
+margin: 3px;
+}
+
+h2{ border-bottom: 3px solid black;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+  nav { grid-column: span 1;
+  }
+ 
+main { grid-column: span 5;
+  padding: 1em;
+ 
+  }
+ 
+footer { background-color: red;
+  width: 940px;
+  padding: 0px;
+  margin:0px;
+  grid-column: span 6;
+  border: 3px solid black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  text-align: center;
+  color: #ffffff;
+}
+
+.floatimg{
+  float: left;
+padding: 1em;
+  border: 3px solid black;
+ 
+} 
+
+.Georgia{
+  margin-left: 1em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.links{ clear: both;}
+
+main a:link { color: red;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+main a:visited { color: red;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+main a:hover { color: blue;
+ text-decoration: underline;
+  font-weight: bold;
+
+}
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    width: 200px;
+  }
+  
+  nav li a {
+    display: block;
+    background-color: red;
+  width: 150px;
+    padding: 1em;
+    margin: 1em;
+    color: white;
+    text-decoration: none;
+  }
+  
+ 
+
+  
