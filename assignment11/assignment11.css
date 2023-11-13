@@ -1,0 +1,117 @@
+body {
+    background-image: url(a62.png);
+    background-repeat: repeat;
+}
+  
+  #wrapper {
+    margin: 24px auto;
+    width: 1200px;
+    border: 1px solid black;
+    padding: 24px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+  }
+  
+  header {
+    grid-column: span 4;
+    color: white;
+    padding: 24px;
+    background-color: red;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+      padding: 10px;
+      width: 250px;
+      border: 2px solid black;
+      
+      border-radius: 10px;
+    
+      padding: 10px;
+  margin: 20px;
+  width: 250px;
+  box-shadow: 10px 10px 10px #999;
+  }
+
+  
+  header h2 {
+    color: black;
+    border-bottom: 2px solid black;
+    font-family: Kenia;
+  }
+  
+  .mainimg {
+    grid-column: span 8;
+    width: 100%;
+    object-fit: contain;
+    padding: 10px;
+  background-color: gray;
+      border: 2px solid black;
+      
+      border-radius: 10px;
+  }
+  
+  nav {
+   grid-column: span 12; 
+
+  }
+  
+  nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    
+  }
+  
+  nav li {
+    color: white;
+    background-color: red;
+    border: 3px solid black;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 24px;
+    padding-left: 96px;
+    padding-right: 96px;
+    margin: 24px 0;
+    display: inline-block;
+    grid-column: span 4;
+   
+  }
+  
+  nav li a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline;
+  }
+  
+  main {
+    grid-column: span 12;
+    display: grid;
+  }
+  
+  article h2 {
+    color: red;
+    border-bottom: 5px solid black;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+
+  }
+  
+  footer {
+    grid-column: span 12;
+    color: white;
+    padding: 5px;
+    background-color: red;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+
+
+  
+
+
+
+
+  }
