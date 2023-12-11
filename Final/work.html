@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Frederick's Portfolio work</title>
+	<link href="final.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+	<div id="wrapper">
+		<nav>
+			<ul>
+				<li><a href="work.html">Work</a></li>
+				<li><a href="main.html">Main</a></li>
+				<li><a href="about.html">About</a></li>
+				
+			</ul>
+		</nav>
+        
+       
+		<main>
+            <article>
+				<h2>Quick Courts</h2>
+				
+				<p> Quick Courts is an Analog game I helped develop for my Games and Society course at ISU for the Fall 2023 semester. It was developed by a team of 3 and will be apart of the CTK Games showcase in april of 2024. My teams goal was to create a inexpensive short-form game that allowed for consumer creativity and ingenuity. We designed the game to be as acessable as possible, giving the players the option to create their own cards to be able to enjoy the game with their friends, with or without owning the physical game. 
+                </p>
+            </article>
+            <div id="myCarousel" class="f-carousel">
+                <div class="f-carousel__slide"><img src="img2.png"></div>
+                <div class="f-carousel__slide"><img src="IMG_9775.jpg"></div>
+            </div>
+        </main>
+	</div>
+
+    <script>
+        const container = document.getElementById("myCarousel");
+        const options = { infinite: false };
+        new Carousel(container, options);
+    </script>
+</body>
+</html>
